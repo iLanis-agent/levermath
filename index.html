@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lever Math - lever balance arithmetic</title>
+<style>
+  :root { --accent:#14607a; --ink:#0a2530; --paper:#f0f7fa; --soft:#d9ecf2; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#5d8492; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lever Math</h1>
+  <p class="lede">Side one is 8 kg at 1.5 m, making 12 kg·m. Side two is 20 kg at 0.6 m, making 12 kg·m. They balance.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Lever Math works out mass times distance from the numbers you type. The masses, distances and beam are yours to measure or read off your own setup. It treats every mass as a point at its distance and every beam as straight, so it has not seen your setup and does not know the beam's strength or own weight, the pivot's friction, angles, movement or how things are rigged, and it gives no verdict that a lift, a beam or a rig is adequate or safe. Every number is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 8 kg against 20 kg, the distance that makes them balance, and where the pivot goes on a 3 m beam.</p>
+  <section>
+    <h2>The balance truth</h2>
+    <p>Side one is 8 kg at 1.5 m, making 12 kg·m. Side two is 20 kg at 0.6 m, making 12 kg·m. They balance.</p>
+  </section>
+  <section>
+    <h2>The match truth</h2>
+    <p>To balance 8 kg at 1.5 m with 20 kg on the other side, put the 20 kg at 0.6 m from the pivot.</p>
+  </section>
+  <section>
+    <h2>The fulcrum truth</h2>
+    <p>With 8 kg at one end of a 3 m beam and 20 kg at the other, the pivot goes 2.14 m from the 8 kg end and 0.86 m from the 20 kg end.</p>
+  </section>
+  <a class="btn" href="app.html">Balance your lever</a>
+  <footer>Lever Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
